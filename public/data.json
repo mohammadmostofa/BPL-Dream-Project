@@ -1,0 +1,82 @@
+[
+  {
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 95,
+    "batStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": 1500000,
+    "image": "https://i.ibb.co.com/0RLrGwhP/1.png"
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerType": "Batsman",
+    "rating": 92,
+    "batStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "price": 1400000,
+    "image": "https://i.ibb.co.com/LBbx7Zs/01.png"
+  },
+  {
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playerType": "All-rounder",
+    "rating": 93,
+    "batStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 1600000,
+    "image": "https://i.ibb.co.com/pjY7fPHM/2.png"
+  },
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-rounder",
+    "rating": 91,
+    "batStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": 1300000,
+    "image": "https://i.ibb.co.com/5XMvtXxd/3.png"
+  },
+  {
+    "playerName": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playerType": "Batsman",
+    "rating": 90,
+    "batStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "price": 1350000,
+    "image": "https://i.ibb.co.com/Rq1NRv9/4.png"
+  },
+  {
+    "playerName": "David Warner",
+    "playerCountry": "Australia",
+    "playerType": "Batsman",
+    "rating": 89,
+    "batStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "price": 1250000,
+    "image": "https://i.ibb.co.com/Fk75jxSk/5.png"
+  },
+  {
+    "playerName": "Jasprit Bumrah",
+    "playerCountry": "India",
+    "playerType": "Bowler",
+    "rating": 94,
+    "batStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 1450000,
+    "image": "https://i.ibb.co.com/RTsFtCMJ/8.png"
+  },
+  {
+    "playerName": "Trent Boult",
+    "playerCountry": "New Zealand",
+    "playerType": "Bowler",
+    "rating": 90,
+    "batStyle": "Right-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": 1200000,
+    "image": "https://i.ibb.co.com/CKj6zns5/6.png"
+  }
+]
