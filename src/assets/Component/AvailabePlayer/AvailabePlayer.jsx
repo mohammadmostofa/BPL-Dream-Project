@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../../UI/Card';
-const AvailabePlayer = ({players}) => {
+const AvailabePlayer = ({players, setCoin ,coin , selectedPlayer, setSelectedPlayer}) => {
 
   return (
 
@@ -9,8 +9,19 @@ const AvailabePlayer = ({players}) => {
  <div className='grid grid-cols-4 justify-between items-center gap-6 container mx-auto w-full'>
 
            {
+                                                                                  // setCoin transfer card to update
+                players.map((player,index) =>
+                   <Card
+                 key={index} 
+                  player={player} 
+                   setCoin = {setCoin} 
+                   coin = {coin} 
 
-                players.map((player,index) => <Card key={index}  player={player}></Card>  )
+
+                   selectedPlayer = {selectedPlayer}
+                   setSelectedPlayer = {setSelectedPlayer}
+
+                   ></Card>  )
 
            }
      

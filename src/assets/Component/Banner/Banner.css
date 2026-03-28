@@ -1,0 +1,30 @@
+
+
+.bg_img{
+
+  background-image:url(/src/assets/banner_img_1.jpg)  ;
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+.left_to_right{
+
+
+  animation: move 30s linear infinite  ;
+    animation-fill-mode: forwards;
+
+
+}
+
+
+@keyframes move{
+  from{
+    transform: translateX(100vh);
+  }
+  to{
+    transform: translateX(-250vh);
+  }
+}

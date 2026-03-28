@@ -2,7 +2,7 @@ import Navbar from './assets/Component/Navbar/Navbar';
 
 import './App.css'
 import Player from './assets/Component/Player/Player';
-import { Suspense } from 'react';
+import { Suspense, useState } from 'react';
 import Banner from './assets/Component/Banner/Banner';
 
 const fetchPlayer = async() => {
@@ -15,12 +15,20 @@ function App() {
 
   const playerPromise = fetchPlayer();
 
+  // set coin usestate
+
+  const [coin, setCoin] = useState(8000000)
+
   return (
     <>
-           <Navbar> </Navbar>
+            {/* transfer this coin in navbar  */}
+           <Navbar coin = {coin} > </Navbar>
            <Banner></Banner>
            <Suspense fallback = {<span className="loading loading-dots loading-xl"></span>}>
-           <Player playerPromise = {playerPromise} ></Player>
+
+           {/* setCoin tranfer player to update  */}
+
+           <Player playerPromise = {playerPromise} setCoin = {setCoin}  coin = {coin} ></Player>
            </Suspense>
 
     </>
